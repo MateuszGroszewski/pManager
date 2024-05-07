@@ -6,7 +6,7 @@ class Menu:
 
     @staticmethod
     def showMenu():
-        DBController.create_table()
+        DBController.createTable()
         menuChoice: int | None = None
         while menuChoice != 0:
             print("1. Show all")
